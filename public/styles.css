@@ -1,0 +1,79 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+h2, h3 {
+  text-align: center;
+  margin-top: 20px;
+  color: #2c3e50;
+}
+
+#login-form,
+#dashboard {
+  max-width: 400px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  width: 100%;
+  margin-bottom: 12px;
+  padding: 10px 14px;
+  font-size: 16px;
+  border: 1px solid #ccd6dd;
+  border-radius: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+input:focus {
+  border-color: #3498db;
+  outline: none;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.4);
+}
+
+button {
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+#employee-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#employee-list li {
+  background-color: #ecf0f1;
+  margin-bottom: 10px;
+  padding: 12px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#employee-list button {
+  margin-left: 8px;
+  width: auto;
+  padding: 6px 10px;
+  font-size: 14px;
+}

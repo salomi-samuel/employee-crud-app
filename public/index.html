@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Employee Manager</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <h2>Admin Login</h2>
+  <div id="login-form">
+    <input type="text" id="username" placeholder="Username" /><br />
+    <input type="password" id="password" placeholder="Password" /><br />
+    <button onclick="login()">Login</button>
+  </div>
+
+  <div id="dashboard" style="display: none;">
+    <h2>Employee Dashboard</h2>
+
+    <input type="hidden" id="emp-id" />
+    <input type="text" id="name" placeholder="Name" />
+    <input type="email" id="email" placeholder="Email" />
+    <input type="text" id="department" placeholder="Department" />
+    <input type="number" id="salary" placeholder="Salary" />
+    
+    <button onclick="createEmployee()" id="submit-btn">Add Employee</button>
+    <button onclick="updateEmployee()" id="update-btn" style="display: none;">Update Employee</button>
+
+    <h3>All Employees</h3>
+    <ul id="employee-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+# Node modules (very important)
+node_modules/
+
+# Environment variables (secret stuff)
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific files
+
+Thumbs.db
+
+# VS Code settings (if using)
+.vscode/
+
+# Coverage and build output (if any)
+coverage/
+dist/
+build/
